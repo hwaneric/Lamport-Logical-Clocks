@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service Client {
+  rpc SendMessage(stream Message) returns (stream Response);
+}
+
+message Message {
+    int32 sender_id = 1;
+    string message = 2;
+    int32 logical_time = 3;
+    int32 physical_time = 4;
+}
+
+message Response {
+    bool success = 1;
+}
+
