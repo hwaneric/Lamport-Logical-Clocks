@@ -148,9 +148,12 @@ class Client:
             for response in responses:
                 if self.stop_event.is_set():
                     break
-
+        
         except grpc.RpcError as e:
-            logging.error(f"Error sending messages to client {recipient_id}: {e}")
+            if e.code() == grpc.StatusCode.UNAVAILABLE:
+                logging.info(f"Client {recipient_id} is unavailable. This is likely the result of graceful server shutdown and can be ignored.")
+            else:
+                logging.error(f"Error sending messages to client {recipient_id}: {e}")
         finally:
             channel = self.channels[recipient_id]
             channel.close()
@@ -275,9 +278,10 @@ class Client:
 
         if self.server:
             self.server.stop(0)
+            logging.info("Server stopped")
 
     def __del__(self):
-        if self.server:
-            self.server.stop(0)
-            logging.info("Server stopped")
+        # if self.server:
+        #     self.server.stop(0)
+        #     logging.info("Server stopped")
         logging.info("Closing client")
