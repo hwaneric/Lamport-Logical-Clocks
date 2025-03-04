@@ -18,6 +18,11 @@ def run_client(id):
         if i != id:
             client._send_message(i, synchronous=True)
 
+    start_time = time.time()
+    while time.time() - start_time < 5:
+        client._process_event()
+        time.sleep(1 / client.clock_rate)
+
     client.cleanup()
 
 # Function to configure logging for each process
