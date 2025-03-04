@@ -22,6 +22,8 @@ def run_client(id):
     while time.time() - start_time < 5:
         client._process_event()
         time.sleep(1 / client.clock_rate)
+    
+    time.sleep(5)   # Sleep for 5 seconds to keep server alive for any pending messages
 
     client.cleanup()
 
