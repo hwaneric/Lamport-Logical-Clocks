@@ -214,14 +214,14 @@ class Client:
                 "receive", 
                 message['sender_id'], 
                 self.id, self.clock_count, 
-                datetime.fromtimestamp(message['physical_time']).strftime('%Y-%m-%d %H:%M:%S'),
+                datetime.fromtimestamp(message['physical_time']).strftime('%Y-%m-%d %H:%M:%S.%f')[:-4],
                 message_queue_length
             )
             self.event_logger.info(log_message) 
         else:
             event_val = random.randint(1, 10)
             self.clock_count += 1
-            current_time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+            current_time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S.%f')[:-4]
 
             if event_val == 1: 
                 recipient_id = (self.id % 3) + 1
@@ -249,17 +249,18 @@ class Client:
                 self.event_logger.info(log_message) 
 
             elif event_val == 3: 
-                for recipient_id in [id for id in range(1, 4) if id != self.id]:
+                recipient_ids = [id for id in range(1, 4) if id != self.id]
+                for recipient_id in recipient_ids:
                     self._send_message(recipient_id)
-                    log_message = log_formatter.format_log(
-                        "send", 
-                        self.id, 
-                        recipient_id, 
-                        self.clock_count, 
-                        current_time, 
-                        message_queue_length
-                    )
-                    self.event_logger.info(log_message) 
+                log_message = log_formatter.format_log(
+                    "send", 
+                    self.id, 
+                    f"{recipient_ids[0]} and {recipient_ids[1]}", 
+                    self.clock_count, 
+                    current_time, 
+                    message_queue_length
+                )
+                self.event_logger.info(log_message) 
             else: 
                 log_message = log_formatter.format_log(
                     "internal", 
