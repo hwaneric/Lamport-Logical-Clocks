@@ -13,10 +13,12 @@ def run_client(id):
         if i != id:
             thread = client.connect(i)
             threads.append(thread)
+
+    start_time = time.time()
+    while time.time() - start_time < 15:
+        client._process_event()
+        time.sleep(1 / client.clock_rate)
     
-    for i in range(1, 4):
-        if i != id:
-            client._send_message(i, synchronous=True)
 
     client.cleanup()
 
