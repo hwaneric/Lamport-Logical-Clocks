@@ -23,7 +23,7 @@ import client_pb2_grpc
 class Client:
     def __init__(self, id):
         self.id = id
-        self.clock_rate = random.randint(1, 4)   # Number of events per second, print this value
+        self.clock_rate = random.randint(1, 6)   # Number of events per second, print this value
         self.clock_count = 0    # Logical clock count
 
         self.stubs = {}    # Stubs for connecting to other clients
@@ -150,7 +150,10 @@ class Client:
                     break
 
         except grpc.RpcError as e:
-            logging.error(f"Error sending messages to client {recipient_id}: {e}")
+            if e.code() == grpc.StatusCode.UNAVAILABLE:
+                logging.info(f"Client {recipient_id} is unavailable. This is likely the result of graceful server shutdown and can be ignored.")
+            else:
+                logging.error(f"Error sending messages to client {recipient_id}: {e}")
         finally:
             channel = self.channels[recipient_id]
             channel.close()
@@ -203,6 +206,7 @@ class Client:
             - If other, treat as an internal event.
         '''
         message_queue_length = len(self.message_q)
+        current_time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S.%f')[:-4]
 
         if self.message_q: 
             message = self.message_q.popleft()
@@ -211,14 +215,13 @@ class Client:
                 "receive", 
                 message['sender_id'], 
                 self.id, self.clock_count, 
-                datetime.fromtimestamp(message['physical_time']).strftime('%Y-%m-%d %H:%M:%S.%f')[:-4],
+                current_time,
                 message_queue_length
             )
             self.event_logger.info(log_message) 
         else:
-            event_val = random.randint(1, 10)
+            event_val = random.randint(1, 7)
             self.clock_count += 1
-            current_time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S.%f')[:-4]
 
             if event_val == 1: 
                 recipient_id = (self.id % 3) + 1

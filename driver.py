@@ -13,13 +13,9 @@ def run_client(id):
         if i != id:
             thread = client.connect(i)
             threads.append(thread)
-    
-    for i in range(1, 4):
-        if i != id:
-            client._send_message(i, synchronous=True)
 
     start_time = time.time()
-    while time.time() - start_time < 65:
+    while time.time() - start_time < 15:
         client._process_event()
         time.sleep(1 / client.clock_rate)
     
