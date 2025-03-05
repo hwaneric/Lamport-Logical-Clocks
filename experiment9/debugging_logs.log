@@ -1,0 +1,209 @@
+2025-03-05 02:51:51,179 - Process-3 - INFO - Starting server for client 3 at localhost:54402
+2025-03-05 02:51:51,180 - Process-3 - INFO - Connected to client 1 at localhost:54400
+2025-03-05 02:51:51,413 - Process-1 - INFO - Connected to client 2 at localhost:54401
+2025-03-05 02:51:51,580 - Process-2 - INFO - Connected to client 3 at localhost:54402
+2025-03-05 02:51:51,614 - Process-3 - INFO - Connected to client 2 at localhost:54401
+2025-03-05 02:51:51,629 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:51,661 - Process-1 - INFO - Connected to client 3 at localhost:54402
+2025-03-05 02:51:51,729 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:51,780 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:51:51,797 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:51,828 - Process-2 - INFO - Message Received from client 1
+2025-03-05 02:51:51,927 - Process-3 - INFO - Message Received from client 1
+2025-03-05 02:51:52,528 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:52,558 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:52,980 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:53,032 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:53,230 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:53,345 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:53,747 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:53,992 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:54,216 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:54,367 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:54,382 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:54,798 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:51:55,211 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:55,408 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:55,701 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:51:55,732 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:58,052 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:59,017 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:51:59,868 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:51:59,900 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:51:59,900 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:00,500 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:00,752 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:01,472 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:01,488 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:01,555 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:02,890 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:03,140 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:03,690 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:03,706 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:04,241 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:04,407 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:05,121 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:05,142 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:05,507 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:05,575 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:05,689 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:06,074 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:06,176 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:06,593 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:07,043 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:08,106 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:08,624 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:09,112 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:09,794 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:09,794 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:10,247 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:10,295 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:10,662 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:10,696 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:10,713 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:10,863 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:10,944 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:11,130 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:11,213 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:11,527 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:11,613 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:11,780 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:11,963 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:12,363 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:12,379 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:13,059 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:13,098 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:13,814 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:16,664 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:17,729 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:18,100 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:18,519 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:18,730 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:19,153 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:19,336 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:19,969 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:20,265 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:20,899 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:20,973 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:21,021 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:21,086 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:21,752 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:21,783 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:21,989 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:22,188 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:22,756 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:23,683 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:24,601 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:24,774 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:24,958 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:25,037 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:25,408 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:25,990 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:26,394 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:26,857 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:26,857 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:27,625 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:28,343 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:28,579 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:28,643 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:28,885 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:29,506 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:30,546 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:30,696 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:30,827 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:31,184 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:31,231 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:31,749 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:31,946 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:31,993 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:32,246 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:32,976 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:32,976 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:33,482 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:33,961 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:34,177 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:34,349 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:34,865 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:35,177 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:35,568 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:35,649 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:35,684 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:35,699 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:36,501 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:37,065 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:37,452 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:37,519 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:38,186 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:39,503 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:39,637 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:39,653 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:39,752 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:40,387 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:40,433 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:40,747 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:40,947 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:41,437 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:41,453 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:41,683 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:41,888 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:43,471 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:43,507 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:43,689 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:44,534 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:44,809 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:44,992 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:45,326 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:45,341 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:45,959 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:46,038 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:46,726 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:46,743 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:46,743 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:47,175 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:47,574 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:47,593 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:47,777 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:48,911 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:49,412 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:49,593 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:49,876 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:49,912 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:50,179 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:50,711 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:50,814 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:50,964 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:51,380 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:51,493 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:52,048 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:52,532 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:53,277 - Process-1 - INFO - Message Received from client 2
+2025-03-05 02:52:53,293 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:53,309 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:53,600 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:54,212 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:54,348 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:54,548 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:54,595 - Process-2 - INFO - Message Received from client 3
+2025-03-05 02:52:54,996 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:55,347 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:55,500 - Process-3 - INFO - Message Received from client 2
+2025-03-05 02:52:55,533 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:56,283 - Process-1 - INFO - Message Received from client 3
+2025-03-05 02:52:56,786 - Process-2 - INFO - Stopping messaging thread for client 1
+2025-03-05 02:52:56,786 - Process-2 - INFO - Stopping messaging thread for client 3
+2025-03-05 02:52:56,867 - Process-3 - INFO - Stopping messaging thread for client 2
+2025-03-05 02:52:56,867 - Process-3 - INFO - Stopping messaging thread for client 1
+2025-03-05 02:52:56,869 - Process-2 - INFO - Server stopped
+2025-03-05 02:52:56,870 - Process-2 - INFO - Server for client 2 stopped
+2025-03-05 02:52:56,870 - Process-2 - INFO - Closing client
+2025-03-05 02:52:56,892 - Process-3 - INFO - Client 2 is unavailable. This is likely the result of graceful server shutdown and can be ignored.
+2025-03-05 02:52:57,045 - Process-3 - INFO - Server stopped
+2025-03-05 02:52:57,046 - Process-3 - INFO - Server for client 3 stopped
+2025-03-05 02:52:57,051 - Process-3 - INFO - Closing client
+2025-03-05 02:52:57,060 - Process-1 - INFO - Client 2 is unavailable. This is likely the result of graceful server shutdown and can be ignored.
+2025-03-05 02:52:57,151 - Process-1 - INFO - Client 3 is unavailable. This is likely the result of graceful server shutdown and can be ignored.
+2025-03-05 02:52:57,401 - Process-1 - INFO - Stopping messaging thread for client 2
+2025-03-05 02:52:57,401 - Process-1 - INFO - Stopping messaging thread for client 3
+2025-03-05 02:52:57,403 - Process-1 - INFO - Server stopped
+2025-03-05 02:52:57,403 - Process-1 - INFO - Server for client 1 stopped
+2025-03-05 02:52:57,408 - Process-1 - INFO - Closing client
