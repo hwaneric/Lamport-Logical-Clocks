@@ -23,7 +23,7 @@ import client_pb2_grpc
 class Client:
     def __init__(self, id):
         self.id = id
-        self.clock_rate = random.randint(1, 6)   # Number of events per second, print this value
+        self.clock_rate = random.randint(1, 4)   # Number of events per second, print this value
         self.clock_count = 0    # Logical clock count
 
         self.stubs = {}    # Stubs for connecting to other clients
@@ -148,12 +148,9 @@ class Client:
             for response in responses:
                 if self.stop_event.is_set():
                     break
-        
+
         except grpc.RpcError as e:
-            if e.code() == grpc.StatusCode.UNAVAILABLE:
-                logging.info(f"Client {recipient_id} is unavailable. This is likely the result of graceful server shutdown and can be ignored.")
-            else:
-                logging.error(f"Error sending messages to client {recipient_id}: {e}")
+            logging.error(f"Error sending messages to client {recipient_id}: {e}")
         finally:
             channel = self.channels[recipient_id]
             channel.close()
@@ -279,10 +276,9 @@ class Client:
 
         if self.server:
             self.server.stop(0)
-            logging.info("Server stopped")
 
     def __del__(self):
-        # if self.server:
-        #     self.server.stop(0)
-        #     logging.info("Server stopped")
+        if self.server:
+            self.server.stop(0)
+            logging.info("Server stopped")
         logging.info("Closing client")
