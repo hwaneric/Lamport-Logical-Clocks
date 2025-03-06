@@ -20,4 +20,4 @@ Our project is set up to simulate running all 3 machines on the same computer (b
 Once the above configuration steps are complete, you should be able to run the project! To run the experiment, run the ```driver.py``` file. 
 
 # Running Tests
-To run our test suite, cd into the tests folder and run ```pytest``` in the terminal.
+To run our test suite, run ```pytest``` in the terminal.
