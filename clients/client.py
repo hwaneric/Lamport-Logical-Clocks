@@ -220,7 +220,7 @@ class Client:
             )
             self.event_logger.info(log_message) 
         else:
-            event_val = random.randint(1, 7)
+            event_val = random.randint(1, 10)
             self.clock_count += 1
 
             if event_val == 1: 

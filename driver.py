@@ -3,6 +3,7 @@ from clients.client import Client
 import multiprocessing
 import logging
 
+EXPERIMENT_LEN = 65
 def run_client(id):
     configure_logging()
     client = Client(id)
@@ -15,7 +16,7 @@ def run_client(id):
             threads.append(thread)
 
     start_time = time.time()
-    while time.time() - start_time < 15:
+    while time.time() - start_time < EXPERIMENT_LEN:
         client._process_event()
         time.sleep(1 / client.clock_rate)
     
